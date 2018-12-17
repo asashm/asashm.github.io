@@ -41,6 +41,9 @@ background-clip: border-box;
   position: relative;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 0;
+  min-width: 465px;
+  min-height: 250px;
+  width: 25%;
   /*overflow: hidden;*/
 }
 
@@ -79,6 +82,7 @@ clear: right;
 .item1 {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
+  width: 100% !important;
 }
 
 .item2 {
@@ -88,6 +92,9 @@ clear: right;
 
 .item9 {
   grid-column: 1 / span 4;
+  min-height: 50px !important;
+  height: 50px !important;
+  width: 100% !important;
 }
 
 .item1 {background-color: #16a085 !important;}
