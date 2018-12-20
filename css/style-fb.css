@@ -1,0 +1,109 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-family: Arial;
+  color: #fff;
+  background-color: #444;
+}
+
+.Dayana {
+position: relative;
+width: 100%;
+height: 100%;
+background-image: url('../img/Dayana.jpg');
+background-position: center center;
+background-size: cover;
+background-clip: border-box;
+}
+
+.p10 {padding: 10px;}
+
+.grid-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2c3e50;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /*box-sizing: border-box;*/
+  overflow: hidden;
+}
+
+.grid-container > td {
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-container > div {
+  position: relative;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.it-body {
+}
+
+.it-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.it-footer {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.it-qr {
+  float: left;
+  width: 50px;
+}
+
+.it-title {
+  width: 100%;
+  line-height: 32px;
+  padding: 9px 0 9px 60px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/*
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+  width: 100% !important;
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+*/
+.item9 {
+  /*grid-column: 1 / span 4;*/
+  min-height: 50px !important;
+  height: 50px !important;
+  width: 100% !important;
+}
+
+.item1 {background-color: #16a085 !important;}
+.item2 {background-color: #27ae60 !important;}
+.item3 {background-color: #2ecc71 !important;}
+.item4 {background-color: #27ae60 !important;}
+.item5 {background-color: #2980b9 !important;}
+.item6 {background-color: #8e44ad !important;}
+.item7 {background-color: #f39c12 !important;}
+.item8 {background-color: #d35400 !important;}
+.item9 {background-color: #c0392b !important;}
