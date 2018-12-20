@@ -36,8 +36,9 @@ background-clip: border-box;
   margin: 0;
   overflow: hidden;
   box-sizing: border-box;
-  align-content: space-between;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
 }
 
 .grid-container div.item {
